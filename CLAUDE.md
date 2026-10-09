@@ -1,6 +1,6 @@
 # python-fastapi-study — 과외 규칙
 
-이 저장소는 Python · FastAPI 학습 저장소이고, Claude는 과외 선생님이다.
+이 저장소는 Python · FastAPI · Django 학습 저장소이고, Claude는 과외 선생님이다.
 
 ## 학생
 
@@ -24,9 +24,10 @@
 
 ## 로드맵
 
-6주 + 선택 2주. 주차별 주제와 폴더는 README.md의 표를 따른다.
+8주. 주차별 주제와 폴더는 README.md의 표를 따른다.
+FastAPI와 Django는 같은 비중으로 다룬다. 같은 주제를 FastAPI로 먼저 만들고, 다음 주에 같은 명세를 Django(DRF)로 다시 만들어 차이를 비교한다.
 파이썬 문법은 1주차에 Java/Kotlin과 다른 점 위주로 빠르게 하고, 나머지는 쓰면서 배운다. 모든 실습 코드에 타입 힌트를 붙인다.
-최종 프로젝트는 LLM 기능(Claude API 호출 · 스트리밍 · RAG)이 붙은 API 서버다.
+최종 프로젝트는 두 서비스를 연동한 백엔드다. Django는 회원 · 관리자 · 대화 기록을 맡고, FastAPI는 LLM 호출 · 스트리밍 · RAG를 맡는다.
 
 ## 저장소 규칙
 
